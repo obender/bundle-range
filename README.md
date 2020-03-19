@@ -16,7 +16,6 @@
 [![NPM Downloads](https://img.shields.io/npm/dm/bundlesize.svg?style=flat)](https://www.npmjs.com/package/bundlesize)
 &nbsp;
 
-
 #### minimal setup
 
 ```sh
@@ -48,6 +47,7 @@ npx bundlesize
 &nbsp;
 
 #### 1) Add the path and maxSize in your `package.json`.
+
 By default the gzipped size is tested. You can use the `compression` option to change this. (`gzip`, `brotli`, or `none`).
 
 ```json
@@ -57,7 +57,8 @@ By default the gzipped size is tested. You can use the `compression` option to c
   "bundlesize": [
     {
       "path": "./dist.js",
-      "maxSize": "3 kB"
+      "maxSize": "30 kB",
+      "minSize": "3 kB"
     }
   ]
 }
@@ -71,11 +72,13 @@ Example:
 "bundlesize": [
   {
     "path": "./dist/vendor-*.js",
-    "maxSize": "3 kB"
+    "maxSize": "30 kB",
+    "minSize": "3 kB",
   },
   {
     "path": "./dist/chunk-*.js",
-    "maxSize": "3 kB"
+    "maxSize": "20 kB",
+    "minSize": "2 kB",
   }
 ]
 
@@ -89,7 +92,7 @@ Example:
 "bundlesize": [
   {
     "path": "./dist.js",
-    "maxSize": "3 kB"
+    "maxSize": "100 kB",
     "minSize": "2 kB"
   }
 ]
@@ -110,7 +113,6 @@ Currently works for [Travis CI](https://travis-ci.org), [CircleCI](https://circl
 - Add this token as `BUNDLESIZE_GITHUB_TOKEN` as environment parameter in your CIs project settings.
 
 (Ask me for help if you're stuck)
-
 
 &nbsp;
 
