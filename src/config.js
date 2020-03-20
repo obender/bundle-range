@@ -1,13 +1,12 @@
 const readPkgUp = require("read-pkg-up");
-
-const pkg = readPkgUp.sync().pkg;
+const pkg = readPkgUp.sync().packageJson;
 const program = require("commander");
 const { error } = require("prettycli");
 const debug = require("./debug");
 
 /* Config from package.json */
-const packageJSONconfig = pkg["bundle-range"];
-
+const packageJSONconfig = pkg["bundlesize"];
+console.log(pkg);
 /* Config from CLI */
 
 program
