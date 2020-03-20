@@ -1,6 +1,6 @@
 {
   "name": "bundle-range",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "Keep your library size in check based on bundlesize",
   "repository": {
     "type": "git",
@@ -64,6 +64,16 @@
       "path": "./src/compressed-size.js",
       "maxSize": "420B",
       "minSize": "200B",
+      "compression": "none"
+    },
+    {
+      "path": [
+        "./src/compressed-size.js",
+        "./src/files.js",
+        "./index.js"
+      ],
+      "minSize": "1B",
+      "maxSize": "1MB",
       "compression": "none"
     }
   ],

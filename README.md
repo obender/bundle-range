@@ -94,6 +94,16 @@ Example:
     "path": "./dist.js",
     "maxSize": "100 kB",
     "minSize": "2 kB"
+  },
+  {
+    "path": [
+        "./src/compressed-size.js",
+        "./src/files.js",
+        "./index.js"
+      ],
+    "minSize": "1B",
+    "maxSize": "1MB",
+    "compression": "none"
   }
 ]
 
