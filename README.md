@@ -113,19 +113,6 @@ This makes it great for using with applications that are bundled with another to
 
 &nbsp;
 
-#### 2) build status
-
-![build status](https://cdn.rawgit.com/siddharthkp/bundlesize/master/art/status.png)
-
-Currently works for [Travis CI](https://travis-ci.org), [CircleCI](https://circleci.com/), [Wercker](http://www.wercker.com), and [Drone](http://readme.drone.io/).
-
-- [Authorize `bundlesize` for status access](https://github.com/login/oauth/authorize?scope=repo%3Astatus&client_id=6756cb03a8d6528aca5a), copy the token provided.
-- Add this token as `BUNDLESIZE_GITHUB_TOKEN` as environment parameter in your CIs project settings.
-
-(Ask me for help if you're stuck)
-
-&nbsp;
-
 #### CLI
 
 example usage:
@@ -143,42 +130,6 @@ For more granular configuration, we recommend configuring it in the `package.jso
 
 :star: this repo
 
-&nbsp;
-
-#### how to contribute?
-
-- [CONTRIBUTING.md](CONTRIBUTING.md)
-
-&nbsp;
-
-#### Featured on [Totally tooling tips](https://www.youtube.com/watch?v=Da6VxdGU2Ig) and [Chrome Dev Summit](https://www.youtube.com/watch?v=_srJ7eHS3IM)!!
-
-<a href="https://www.youtube.com/watch?v=Da6VxdGU2Ig">
-  <img height="200px" src="https://i.ytimg.com/vi/Da6VxdGU2Ig/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLAAfWzQIMvjH0TIzkAhi-114DIHPQ"/>
-</a>
-<a href="https://www.youtube.com/watch?v=_srJ7eHS3IM">
-  <img height="200px" src="https://cdn.rawgit.com/siddharthkp/bundlesize/master/art/chromedevsummit.png"/>
-</a>
-
-&nbsp;
-
-#### who uses bundlesize?
-
-- [bootstrap](https://github.com/twbs/bootstrap)
-- [preact](https://github.com/developit/preact)
-- [lighthouse](https://github.com/GoogleChrome/lighthouse)
-- [styled-components](https://github.com/styled-components/styled-components)
-- [emotion](https://github.com/tkh44/emotion)
-- [glamorous](https://github.com/paypal/glamorous)
-- [Popper.js](https://github.com/FezVrasta/popper.js)
-- [react-apollo](https://github.com/apollographql/react-apollo)
-- [hyperapp](https://github.com/hyperapp/hyperapp)
-- [css-constructor](https://github.com/siddharthkp/css-constructor)
-- [redux-saga](https://github.com/redux-saga/redux-saga)
-- [micromodal](https://github.com/ghosh/micromodal)
-- [unistore](https://github.com/developit/unistore)
-
-&nbsp;
 
 #### TODO
 
@@ -193,10 +144,6 @@ For more granular configuration, we recommend configuring it in the `package.jso
 - [travis-weigh-in](https://github.com/danvk/travis-weigh-in) - Uses Python rather than Node.js
 - [size-limit](https://github.com/ai/size-limit) - Uses webpack, builds your files for you.
 
-## Contributors
-
-This project exists thanks to all the people who contribute. [[Contribute]](CONTRIBUTING.md).
-<a href="graphs/contributors"><img src="https://opencollective.com/bundlesize/contributors.svg?width=890" /></a>
 
 #### license
 
