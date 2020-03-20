@@ -6,7 +6,6 @@ const debug = require("./debug");
 
 /* Config from package.json */
 const packageJSONconfig = pkg["bundlesize"];
-console.log(pkg);
 /* Config from CLI */
 
 program
