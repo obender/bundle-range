@@ -30,7 +30,7 @@
   "author": "siddharthkp",
   "license": "MIT",
   "dependencies": {
-    "axios": "0.18.1",
+    "axios": "0.21.1",
     "body-parser": "1.17.2",
     "bytes": "2.5.0",
     "dotenv": "4.0.0",
